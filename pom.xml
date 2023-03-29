@@ -3,6 +3,14 @@
   <groupId>Palindrome</groupId>
   <artifactId>Palindrome</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+   <dependency>
+  <groupId>org.junit.platform</groupId>
+  <artifactId>junit-platform-reporting</artifactId>
+  <version>1.9.1</version>
+  <scope>test</scope>
+   </dependency>
+  </dependencies>
   <name>Palindrome</name>
   <build>
     <sourceDirectory>src</sourceDirectory>
